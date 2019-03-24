@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "II",
+    "IS",
+    " S"
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "civmod:ingot_magium"
+    },
+    "S":{
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "civmod:axe_magium"
+  }
+}

@@ -1,0 +1,21 @@
+item.ingot_magium.name=Magium Ingot
+
+item.pickaxe_magium.name=Magium Pickaxe
+item.shovel_magium.name=Magium Shovel
+item.sword_magium.name=Magium Sword
+item.axe_magium.name=Magium Axe
+item.hoe_magium.name=Magium Hoe
+
+item.leggings_magium.name=Magium Leggings
+item.boots_magium.name=Magium Boots
+item.chestplate_magium.name=Magium Chestplate
+item.helmet_magium.name=Magium Helmet
+
+tile.block_magium.name=Magium Block
+
+tile.ore_overworld_dimmium.name=Dimmium Ore
+tile.ore_overworld_magium.name=Magium Ore
+
+itemGroup.civtab=Civilizations
+
+entity.testvillager.name=Test Villager

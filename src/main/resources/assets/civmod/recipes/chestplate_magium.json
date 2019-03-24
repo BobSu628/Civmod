@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "I I",
+    "III",
+    "III"
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "civmod:ingot_magium"
+    }
+  },
+
+  "result":
+  {
+    "item": "civmod:chestplate_magium"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "III",
+    " S ",
+    " S "
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "civmod:ingot_magium"
+    },
+    "S":{
+      "item": "minecraft:stick"
+    }
+  },
+
+  "result":
+  {
+    "item": "civmod:pickaxe_magium"
+  }
+}

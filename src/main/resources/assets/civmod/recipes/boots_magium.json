@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "I I",
+    "I I"
+  ],
+
+  "key":
+  {
+    "I":
+    {
+      "item": "civmod:ingot_magium"
+    }
+  },
+
+  "result":
+  {
+    "item": "civmod:boots_magium"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "pattern":
+  [
+    "B"
+  ],
+
+  "key":
+  {
+    "B":
+    {
+      "item": "civmod:block_magium"
+    }
+  },
+
+  "result":
+  {
+    "item": "civmod:ingot_magium",
+    "count": 9
+  }
+}

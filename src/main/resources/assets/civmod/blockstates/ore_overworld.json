@@ -1,0 +1,7 @@
+{
+  "variants":
+  {
+    "variant=dimmium": {"model": "civmod:ore_dimmium"},
+    "variant=magium": {"model": "civmod:ore_magium"}
+  }
+}
