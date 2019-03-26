@@ -30,6 +30,7 @@ public class EntityTestVillager extends EntityVillager {
         this.inventory = new InventoryBasic("Items", false, 8);
         this.setHeldItem(EnumHand.MAIN_HAND, new ItemStack(Items.IRON_PICKAXE));
     }
+    
 
     /*
     @Override
