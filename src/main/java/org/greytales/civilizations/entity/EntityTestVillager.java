@@ -20,20 +20,23 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.ForgeHooks;
 import org.greytales.civilizations.entity.ai.EntityAIDigDown;
 
-public class EntityTestVillager extends AbstractIllager {
+public class EntityTestVillager extends EntityVillager {
 
     private InventoryBasic inventory;
 
     public EntityTestVillager(World worldIn) {
         super(worldIn);
+        this.setSize(0.6f, 1.8f);
         this.inventory = new InventoryBasic("Items", false, 8);
         this.setHeldItem(EnumHand.MAIN_HAND, new ItemStack(Items.IRON_PICKAXE));
     }
 
+    /*
     @Override
     protected void initEntityAI() {
         this.tasks.addTask(0, new EntityAIDigDown(this));
     }
+    */
 
     public void breakBlock(BlockPos pos){
         this.world.destroyBlock(pos, true);

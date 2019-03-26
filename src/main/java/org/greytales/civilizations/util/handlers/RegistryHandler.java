@@ -52,8 +52,8 @@ public class RegistryHandler {
 
         RenderHandler.registerEntityRenders();
 
-        MapGenStructureIO.registerStructureComponent(Landmark.class, "Landmark");
-        VillageInit.registerVillageCreationHandler(new LandmarkCreationHandler());
+        //MapGenStructureIO.registerStructureComponent(Landmark.class, "Landmark");
+        //VillageInit.registerVillageCreationHandler(new LandmarkCreationHandler());
     }
 
     public static void init(){
