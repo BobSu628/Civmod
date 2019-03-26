@@ -10,6 +10,7 @@ import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.inventory.InventoryBasic;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemTool;
@@ -29,8 +30,25 @@ public class EntityTestVillager extends EntityVillager {
         this.setSize(0.6f, 1.8f);
         this.inventory = new InventoryBasic("Items", false, 8);
         this.setHeldItem(EnumHand.MAIN_HAND, new ItemStack(Items.IRON_PICKAXE));
+
+        if(this.getItemStackFromSlot(EntityEquipmentSlot.CHEST) == ItemStack.EMPTY){
+            this.setItemStackToSlot(EntityEquipmentSlot.CHEST, new ItemStack(Items.DIAMOND_CHESTPLATE));
+        }
+        if(this.getItemStackFromSlot(EntityEquipmentSlot.HEAD) == ItemStack.EMPTY){
+            this.setItemStackToSlot(EntityEquipmentSlot.HEAD, new ItemStack(Items.DIAMOND_HELMET));
+        }
+        if(this.getItemStackFromSlot(EntityEquipmentSlot.LEGS) == ItemStack.EMPTY){
+            this.setItemStackToSlot(EntityEquipmentSlot.LEGS, new ItemStack(Items.DIAMOND_LEGGINGS));
+        }
+        if(this.getItemStackFromSlot(EntityEquipmentSlot.FEET) == ItemStack.EMPTY){
+            this.setItemStackToSlot(EntityEquipmentSlot.FEET, new ItemStack(Items.DIAMOND_BOOTS));
+        }
     }
-    
+
+    @Override
+    public void onEntityUpdate() {
+        super.onEntityUpdate();
+    }
 
     /*
     @Override

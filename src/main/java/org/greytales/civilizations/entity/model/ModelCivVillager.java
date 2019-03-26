@@ -16,7 +16,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
  * ModelPlayer - GreyTales
  * Created using Tabula 7.0.0
  */
-public class ModelCivVillager extends ModelBase {
+public class ModelCivVillager extends ModelBiped {
     public ModelRenderer bipedRightArm;
     public ModelRenderer bipedLeftArm;
     public ModelRenderer bipedBody;
@@ -40,7 +40,7 @@ public class ModelCivVillager extends ModelBase {
         this.textureWidth = 64;
         this.textureHeight = 64;
         this.leftArmPose = ArmPose.EMPTY;
-        this.rightArmPose = ArmPose.EMPTY;
+        this.rightArmPose = ArmPose.ITEM;
         this.villagerHeadChild = new ModelRenderer(this, 24, 0);
         this.villagerHeadChild.setRotationPoint(0.0F, -2.0F, 0.0F);
         this.villagerHeadChild.addBox(-1.0F, -1.0F, -6.0F, 2, 4, 2, 0.0F);
